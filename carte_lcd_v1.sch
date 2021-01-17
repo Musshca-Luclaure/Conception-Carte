@@ -1,0 +1,1043 @@
+EESchema Schematic File Version 4
+LIBS:carte_lcd_v1-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Carte Afficheur LCD v1.0"
+Date "2019-07-09"
+Rev ""
+Comp "ENSICAEN"
+Comment1 "BADINGA (1A ELEC)"
+Comment2 "Musshca Luclaure"
+Comment3 "By"
+Comment4 ""
+$EndDescr
+$Comp
+L 4xxx:J8 U1
+U 1 1 5D0D2602
+P 6140 3238
+F 0 "U1" H 6164 2588 50  0000 C CNN
+F 1 "J8" H 6138 3762 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 6140 3238 50  0001 C CNN
+F 3 "" H 6140 3238 50  0001 C CNN
+	1    6140 3238
+	1    0    0    -1  
+$EndComp
+Text GLabel 5914 2838 0    24   BiDi ~ 0
+RE3
+Text GLabel 5914 2888 0    24   BiDi ~ 0
+RA0
+Wire Wire Line
+	5990 2838 5914 2838
+Wire Wire Line
+	6366 2838 6290 2838
+Wire Wire Line
+	6366 2888 6290 2888
+Wire Wire Line
+	6366 2938 6290 2938
+Wire Wire Line
+	6366 2988 6290 2988
+Wire Wire Line
+	6366 3038 6290 3038
+Wire Wire Line
+	6366 3088 6290 3088
+Wire Wire Line
+	6366 3138 6290 3138
+Wire Wire Line
+	6366 3188 6290 3188
+Wire Wire Line
+	6366 3238 6290 3238
+Wire Wire Line
+	6366 3288 6290 3288
+Wire Wire Line
+	6366 3438 6290 3438
+Wire Wire Line
+	6366 3488 6290 3488
+Wire Wire Line
+	6366 3538 6290 3538
+Wire Wire Line
+	6366 3588 6290 3588
+Wire Wire Line
+	6366 3638 6290 3638
+Wire Wire Line
+	6366 3688 6290 3688
+Wire Wire Line
+	6366 3738 6290 3738
+Wire Wire Line
+	6366 3788 6290 3788
+Wire Wire Line
+	5990 2888 5914 2888
+Wire Wire Line
+	5990 2938 5914 2938
+Wire Wire Line
+	5990 2988 5914 2988
+Wire Wire Line
+	5990 3038 5914 3038
+Wire Wire Line
+	5990 3088 5914 3088
+Wire Wire Line
+	5990 3138 5914 3138
+Wire Wire Line
+	5990 3188 5914 3188
+Wire Wire Line
+	5990 3238 5914 3238
+Wire Wire Line
+	5990 3288 5914 3288
+Wire Wire Line
+	5990 3438 5914 3438
+Wire Wire Line
+	5990 3488 5914 3488
+Wire Wire Line
+	5990 3538 5914 3538
+Wire Wire Line
+	5990 3588 5914 3588
+Wire Wire Line
+	5990 3638 5914 3638
+Wire Wire Line
+	5990 3688 5914 3688
+Wire Wire Line
+	5990 3738 5914 3738
+Wire Wire Line
+	5990 3788 5914 3788
+Text GLabel 5914 2938 0    24   BiDi ~ 0
+RA1
+Text GLabel 5914 2988 0    24   BiDi ~ 0
+RA2
+Text GLabel 5914 3038 0    24   BiDi ~ 0
+RA3
+Text GLabel 5914 3088 0    24   BiDi ~ 0
+RA4
+Text GLabel 5914 3138 0    24   BiDi ~ 0
+RA5
+Text GLabel 5914 3188 0    24   BiDi ~ 0
+RE0
+Text GLabel 5914 3238 0    24   BiDi ~ 0
+RE1
+Text GLabel 5914 3288 0    24   BiDi ~ 0
+RE2
+Wire Wire Line
+	5652 3338 5652 3258
+Text Label 5652 3258 0    24   ~ 0
+TVDD
+Text GLabel 5914 3438 0    24   BiDi ~ 0
+RA7
+Text GLabel 5914 3488 0    24   BiDi ~ 0
+RA6
+Text GLabel 5914 3538 0    24   BiDi ~ 0
+RC0
+Text GLabel 5914 3588 0    24   BiDi ~ 0
+RC1
+Text GLabel 5914 3638 0    24   BiDi ~ 0
+RC2
+Text GLabel 5914 3688 0    24   BiDi ~ 0
+RC3
+Text GLabel 5914 3738 0    24   BiDi ~ 0
+RD0
+Text GLabel 5914 3788 0    24   BiDi ~ 0
+RD1
+Text GLabel 6366 2838 2    24   BiDi ~ 0
+RE3
+Text GLabel 6366 2888 2    24   BiDi ~ 0
+RA0
+Text GLabel 6366 2938 2    24   BiDi ~ 0
+RA1
+Text GLabel 6366 2988 2    24   BiDi ~ 0
+RA2
+Text GLabel 6366 3038 2    24   BiDi ~ 0
+RA3
+Text GLabel 6366 3088 2    24   BiDi ~ 0
+RA4
+Text GLabel 6366 3138 2    24   BiDi ~ 0
+RA5
+Text GLabel 6366 3188 2    24   BiDi ~ 0
+RE0
+Text GLabel 6366 3238 2    24   BiDi ~ 0
+RE1
+Text GLabel 6366 3288 2    24   BiDi ~ 0
+RE2
+Text Label 6708 3258 2    24   ~ 0
+TVDD
+Text GLabel 6366 3438 2    24   BiDi ~ 0
+RA7
+Text GLabel 6366 3488 2    24   BiDi ~ 0
+RA6
+Text GLabel 6366 3538 2    24   BiDi ~ 0
+RC0
+Text GLabel 6366 3588 2    24   BiDi ~ 0
+RC1
+Text GLabel 6366 3638 2    24   BiDi ~ 0
+RC2
+Text GLabel 6366 3688 2    24   BiDi ~ 0
+RC3
+Text GLabel 6366 3738 2    24   BiDi ~ 0
+RD0
+Text GLabel 6366 3788 2    24   BiDi ~ 0
+RD1
+$Comp
+L 4xxx:J11 U2
+U 1 1 5D1498B3
+P 8912 3418
+F 0 "U2" H 8926 2868 48  0000 C CNN
+F 1 "J11" H 8912 4021 48  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 8912 3418 24  0001 C CNN
+F 3 "" H 8912 3418 24  0001 C CNN
+	1    8912 3418
+	1    0    0    -1  
+$EndComp
+Text GLabel 8686 2918 0    24   BiDi ~ 0
+RB7
+Wire Wire Line
+	8762 2918 8686 2918
+Wire Wire Line
+	8762 2968 8686 2968
+Wire Wire Line
+	8762 3018 8686 3018
+Wire Wire Line
+	8762 3068 8686 3068
+Wire Wire Line
+	8762 3118 8686 3118
+Wire Wire Line
+	8762 3168 8686 3168
+Wire Wire Line
+	8762 3218 8686 3218
+Wire Wire Line
+	8762 3268 8686 3268
+Wire Wire Line
+	8762 3418 8686 3418
+Wire Wire Line
+	8762 3468 8686 3468
+Wire Wire Line
+	8762 3518 8686 3518
+Wire Wire Line
+	8762 3568 8686 3568
+Wire Wire Line
+	8762 3618 8686 3618
+Wire Wire Line
+	8762 3668 8686 3668
+Wire Wire Line
+	8762 3718 8686 3718
+Wire Wire Line
+	8762 3768 8686 3768
+Wire Wire Line
+	8762 3818 8686 3818
+Wire Wire Line
+	8762 3868 8686 3868
+Wire Wire Line
+	9138 3868 9062 3868
+Wire Wire Line
+	9138 3818 9062 3818
+Wire Wire Line
+	9138 3768 9062 3768
+Wire Wire Line
+	9138 3718 9062 3718
+Wire Wire Line
+	9138 3668 9062 3668
+Wire Wire Line
+	9138 3618 9062 3618
+Wire Wire Line
+	9138 3568 9062 3568
+Wire Wire Line
+	9138 3518 9062 3518
+Wire Wire Line
+	9138 3268 9062 3268
+Wire Wire Line
+	9138 3218 9062 3218
+Wire Wire Line
+	9138 3118 9062 3118
+Wire Wire Line
+	9138 3168 9062 3168
+Wire Wire Line
+	9138 3068 9062 3068
+Wire Wire Line
+	9138 3018 9062 3018
+Wire Wire Line
+	9138 2968 9062 2968
+Wire Wire Line
+	9138 2918 9062 2918
+Text GLabel 8686 2968 0    24   BiDi ~ 0
+RB6
+Text GLabel 8686 3018 0    24   BiDi ~ 0
+RB5
+Text GLabel 8686 3068 0    24   BiDi ~ 0
+RB4
+Text GLabel 8686 3118 0    24   BiDi ~ 0
+RB3
+Text GLabel 8686 3168 0    24   BiDi ~ 0
+RB2
+Text GLabel 8686 3218 0    24   BiDi ~ 0
+RB1
+Text GLabel 8686 3268 0    24   BiDi ~ 0
+RB0
+Wire Wire Line
+	8372 3368 8372 3454
+Wire Wire Line
+	8372 3368 8762 3368
+$Comp
+L power:GND #PWR03
+U 1 1 5D1DDF41
+P 8372 3454
+F 0 "#PWR03" H 8372 3204 50  0001 C CNN
+F 1 "GND" H 8377 3281 50  0001 C CNN
+F 2 "" H 8372 3454 50  0001 C CNN
+F 3 "" H 8372 3454 50  0001 C CNN
+	1    8372 3454
+	1    0    0    -1  
+$EndComp
+Text GLabel 8686 3418 0    24   BiDi ~ 0
+RD7
+Text GLabel 8686 3468 0    24   BiDi ~ 0
+RD6
+Text GLabel 8686 3518 0    24   BiDi ~ 0
+RD5
+Text GLabel 8686 3568 0    24   BiDi ~ 0
+RD4
+Text GLabel 8686 3618 0    24   BiDi ~ 0
+RC7
+Text GLabel 8686 3668 0    24   BiDi ~ 0
+RC6
+Text GLabel 8686 3718 0    24   BiDi ~ 0
+RC5
+Text GLabel 8686 3768 0    24   BiDi ~ 0
+RC4
+Text GLabel 8686 3818 0    24   BiDi ~ 0
+RD3
+Text GLabel 8686 3868 0    24   BiDi ~ 0
+RD2
+Text GLabel 9138 3868 2    24   BiDi ~ 0
+RD2
+Text GLabel 9138 3818 2    24   BiDi ~ 0
+RD3
+Text GLabel 9138 3768 2    24   BiDi ~ 0
+RC4
+Text GLabel 9138 3718 2    24   BiDi ~ 0
+RC5
+Text GLabel 9138 3668 2    24   BiDi ~ 0
+RC6
+Text GLabel 9138 3618 2    24   BiDi ~ 0
+RC7
+Text GLabel 9138 3568 2    24   BiDi ~ 0
+RD4
+Text GLabel 9138 3518 2    24   BiDi ~ 0
+RD5
+Text GLabel 9138 3468 2    24   BiDi ~ 0
+RD6
+Text GLabel 9138 3418 2    24   BiDi ~ 0
+RD7
+Wire Wire Line
+	9528 3318 9528 3212
+Text Label 9528 3212 0    24   ~ 0
+TVDD
+Text GLabel 9138 3268 2    24   BiDi ~ 0
+RB0
+Text GLabel 9138 3218 2    24   BiDi ~ 0
+RB1
+Text GLabel 9138 3118 2    24   BiDi ~ 0
+RB3
+Text GLabel 9138 3168 2    24   BiDi ~ 0
+RB2
+Text GLabel 9138 3068 2    24   BiDi ~ 0
+RB4
+Text GLabel 9138 3018 2    24   BiDi ~ 0
+RB5
+Text GLabel 9138 2968 2    24   BiDi ~ 0
+RB6
+Text GLabel 9138 2918 2    24   BiDi ~ 0
+RB7
+Wire Wire Line
+	6290 3388 6708 3388
+Wire Wire Line
+	6708 3258 6708 3338
+Wire Wire Line
+	8216 3546 8248 3546
+Wire Wire Line
+	7916 3546 7860 3546
+Wire Wire Line
+	7860 3370 7712 3370
+$Comp
+L Device:C C7
+U 1 1 5D21849D
+P 8060 3212
+F 0 "C7" V 7942 3214 28  0000 C CNN
+F 1 "0.1µf" H 8054 3212 28  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 8098 3062 50  0001 C CNN
+F 3 "~" H 8060 3212 50  0001 C CNN
+	1    8060 3212
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7860 3212 7910 3212
+Wire Wire Line
+	8248 3546 8248 3368
+Wire Wire Line
+	8248 3212 8210 3212
+Connection ~ 7860 3370
+Wire Wire Line
+	8248 3368 8372 3368
+Connection ~ 8248 3368
+Wire Wire Line
+	8248 3368 8248 3212
+Wire Wire Line
+	7860 3370 7860 3212
+Wire Wire Line
+	7860 3546 7860 3370
+Connection ~ 8372 3368
+Wire Wire Line
+	7712 3370 7712 3678
+Wire Wire Line
+	6596 3338 6708 3338
+Connection ~ 6596 3338
+Wire Wire Line
+	6596 3338 6596 3818
+Wire Wire Line
+	7368 3390 7368 3818
+Wire Wire Line
+	7220 3390 7368 3390
+Wire Wire Line
+	7220 3232 7170 3232
+Connection ~ 6708 3388
+Wire Wire Line
+	6832 3388 6708 3388
+Wire Wire Line
+	7220 3390 7220 3232
+$Comp
+L Device:C C6
+U 1 1 5D1377C7
+P 7020 3232
+F 0 "C6" V 6902 3234 28  0000 C CNN
+F 1 "0.1µf" H 7014 3232 28  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7058 3082 50  0001 C CNN
+F 3 "~" H 7020 3232 50  0001 C CNN
+	1    7020 3232
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6864 3566 6832 3566
+Wire Wire Line
+	6832 3232 6870 3232
+Wire Wire Line
+	6832 3566 6832 3388
+Wire Wire Line
+	6832 3388 6832 3232
+Connection ~ 6832 3388
+Wire Wire Line
+	5652 3338 5990 3338
+Wire Wire Line
+	9062 3318 9528 3318
+Wire Wire Line
+	6596 3818 7368 3818
+Connection ~ 7220 3390
+Wire Wire Line
+	7220 3566 7220 3390
+Wire Wire Line
+	7164 3566 7220 3566
+$Comp
+L Device:C C1
+U 1 1 5D3191EC
+P 7014 3566
+F 0 "C1" V 6896 3568 28  0000 C CNN
+F 1 "1µf" H 7008 3566 28  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7052 3416 50  0001 C CNN
+F 3 "~" H 7014 3566 50  0001 C CNN
+	1    7014 3566
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5D320C2F
+P 8066 3546
+F 0 "C2" V 7948 3548 28  0000 C CNN
+F 1 "1µf" H 8060 3546 28  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 8104 3396 50  0001 C CNN
+F 3 "~" H 8066 3546 50  0001 C CNN
+	1    8066 3546
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6708 3388 6708 3442
+$Comp
+L power:GND #PWR02
+U 1 1 5D146500
+P 6708 3442
+F 0 "#PWR02" H 6708 3192 50  0001 C CNN
+F 1 "GND" H 6713 3269 50  0001 C CNN
+F 2 "" H 6708 3442 50  0001 C CNN
+F 3 "" H 6708 3442 50  0001 C CNN
+	1    6708 3442
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9062 3368 9528 3368
+$Comp
+L power:GND #PWR04
+U 1 1 5D21BB71
+P 9528 3454
+F 0 "#PWR04" H 9528 3204 50  0001 C CNN
+F 1 "GND" H 9533 3281 50  0001 C CNN
+F 2 "" H 9528 3454 50  0001 C CNN
+F 3 "" H 9528 3454 50  0001 C CNN
+	1    9528 3454
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 3388 5650 3448
+Wire Wire Line
+	5650 3388 5990 3388
+$Comp
+L power:GND #PWR01
+U 1 1 5D1382DD
+P 5650 3448
+F 0 "#PWR01" H 5650 3198 50  0001 C CNN
+F 1 "GND" H 5655 3275 50  0001 C CNN
+F 2 "" H 5650 3448 50  0001 C CNN
+F 3 "" H 5650 3448 50  0001 C CNN
+	1    5650 3448
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ALT D1
+U 1 1 5D1EEA36
+P 3876 2554
+F 0 "D1" H 3869 2299 50  0000 C CNN
+F 1 "LED_ALT" H 3869 2390 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 3876 2554 50  0001 C CNN
+F 3 "~" H 3876 2554 50  0001 C CNN
+	1    3876 2554
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5D1F76F5
+P 4254 2554
+F 0 "R1" V 4160 2552 50  0000 C CNN
+F 1 "1k" V 4250 2552 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4184 2554 50  0001 C CNN
+F 3 "~" H 4254 2554 50  0001 C CNN
+	1    4254 2554
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5D202E2E
+P 4604 2554
+F 0 "#PWR05" H 4604 2304 50  0001 C CNN
+F 1 "GND" V 4609 2426 50  0001 R CNN
+F 2 "" H 4604 2554 50  0001 C CNN
+F 3 "" H 4604 2554 50  0001 C CNN
+	1    4604 2554
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4026 2554 4104 2554
+Wire Wire Line
+	4404 2554 4604 2554
+Wire Wire Line
+	3726 2554 3618 2554
+$Comp
+L Device:LED_ALT D2
+U 1 1 5D260D3B
+P 3888 2890
+F 0 "D2" H 3881 2635 50  0000 C CNN
+F 1 "LED_ALT" H 3881 2726 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 3888 2890 50  0001 C CNN
+F 3 "~" H 3888 2890 50  0001 C CNN
+	1    3888 2890
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D260D41
+P 4266 2890
+F 0 "R2" V 4178 2884 50  0000 C CNN
+F 1 "1k" V 4272 2896 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4196 2890 50  0001 C CNN
+F 3 "~" H 4266 2890 50  0001 C CNN
+	1    4266 2890
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5D260D47
+P 4616 2890
+F 0 "#PWR06" H 4616 2640 50  0001 C CNN
+F 1 "GND" V 4621 2762 50  0001 R CNN
+F 2 "" H 4616 2890 50  0001 C CNN
+F 3 "" H 4616 2890 50  0001 C CNN
+	1    4616 2890
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4038 2890 4116 2890
+Wire Wire Line
+	4416 2890 4616 2890
+Wire Wire Line
+	3738 2890 3630 2890
+$Comp
+L Device:LED_ALT D3
+U 1 1 5D267165
+P 3894 3202
+F 0 "D3" H 3887 2947 50  0000 C CNN
+F 1 "LED_ALT" H 3887 3038 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 3894 3202 50  0001 C CNN
+F 3 "~" H 3894 3202 50  0001 C CNN
+	1    3894 3202
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5D26716B
+P 4272 3202
+F 0 "R3" V 4168 3206 50  0000 C CNN
+F 1 "1k" V 4276 3222 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4202 3202 50  0001 C CNN
+F 3 "~" H 4272 3202 50  0001 C CNN
+	1    4272 3202
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5D267171
+P 4622 3202
+F 0 "#PWR07" H 4622 2952 50  0001 C CNN
+F 1 "GND" V 4627 3074 50  0001 R CNN
+F 2 "" H 4622 3202 50  0001 C CNN
+F 3 "" H 4622 3202 50  0001 C CNN
+	1    4622 3202
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4044 3202 4122 3202
+Wire Wire Line
+	4422 3202 4622 3202
+Wire Wire Line
+	3744 3202 3636 3202
+$Comp
+L Device:LED_ALT D4
+U 1 1 5D26DD69
+P 3902 3498
+F 0 "D4" H 3895 3243 50  0000 C CNN
+F 1 "LED_ALT" H 3895 3334 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 3902 3498 50  0001 C CNN
+F 3 "~" H 3902 3498 50  0001 C CNN
+	1    3902 3498
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5D26DD6F
+P 4280 3498
+F 0 "R4" V 4192 3500 50  0000 C CNN
+F 1 "1k" V 4286 3490 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4210 3498 50  0001 C CNN
+F 3 "~" H 4280 3498 50  0001 C CNN
+	1    4280 3498
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5D26DD75
+P 4630 3498
+F 0 "#PWR08" H 4630 3248 50  0001 C CNN
+F 1 "GND" V 4635 3370 50  0001 R CNN
+F 2 "" H 4630 3498 50  0001 C CNN
+F 3 "" H 4630 3498 50  0001 C CNN
+	1    4630 3498
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4052 3498 4130 3498
+Wire Wire Line
+	4430 3498 4630 3498
+Wire Wire Line
+	3752 3498 3644 3498
+$Comp
+L Device:LED_ALT D5
+U 1 1 5D275349
+P 3908 3866
+F 0 "D5" H 3901 3611 50  0000 C CNN
+F 1 "LED_ALT" H 3901 3702 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 3908 3866 50  0001 C CNN
+F 3 "~" H 3908 3866 50  0001 C CNN
+	1    3908 3866
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5D275355
+P 4636 3866
+F 0 "#PWR09" H 4636 3616 50  0001 C CNN
+F 1 "GND" V 4641 3738 50  0001 R CNN
+F 2 "" H 4636 3866 50  0001 C CNN
+F 3 "" H 4636 3866 50  0001 C CNN
+	1    4636 3866
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4058 3866 4136 3866
+Wire Wire Line
+	4436 3866 4636 3866
+Wire Wire Line
+	3758 3866 3650 3866
+$Comp
+L Device:LED_ALT D6
+U 1 1 5D27C951
+P 3918 4174
+F 0 "D6" H 3911 3919 50  0000 C CNN
+F 1 "LED_ALT" H 3911 4010 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 3918 4174 50  0001 C CNN
+F 3 "~" H 3918 4174 50  0001 C CNN
+	1    3918 4174
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5D27C957
+P 4296 4174
+F 0 "R6" V 4186 4176 50  0000 C CNN
+F 1 "10k" V 4284 4190 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4226 4174 50  0001 C CNN
+F 3 "~" H 4296 4174 50  0001 C CNN
+	1    4296 4174
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5D27C95D
+P 4646 4174
+F 0 "#PWR010" H 4646 3924 50  0001 C CNN
+F 1 "GND" V 4651 4046 50  0001 R CNN
+F 2 "" H 4646 4174 50  0001 C CNN
+F 3 "" H 4646 4174 50  0001 C CNN
+	1    4646 4174
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4068 4174 4146 4174
+Wire Wire Line
+	4446 4174 4646 4174
+Wire Wire Line
+	3768 4174 3660 4174
+$Comp
+L Device:LED_ALT D8
+U 1 1 5D284849
+P 3930 4934
+F 0 "D8" H 3923 4679 50  0000 C CNN
+F 1 "LED_ALT" H 3923 4770 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 3930 4934 50  0001 C CNN
+F 3 "~" H 3930 4934 50  0001 C CNN
+	1    3930 4934
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5D28484F
+P 4308 4934
+F 0 "R8" V 4204 4942 50  0000 C CNN
+F 1 "1k" V 4306 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4238 4934 50  0001 C CNN
+F 3 "~" H 4308 4934 50  0001 C CNN
+	1    4308 4934
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5D284855
+P 4658 4934
+F 0 "#PWR012" H 4658 4684 50  0001 C CNN
+F 1 "GND" V 4663 4806 50  0001 R CNN
+F 2 "" H 4658 4934 50  0001 C CNN
+F 3 "" H 4658 4934 50  0001 C CNN
+	1    4658 4934
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4080 4934 4158 4934
+Wire Wire Line
+	4458 4934 4658 4934
+Wire Wire Line
+	3780 4934 3672 4934
+$Comp
+L Device:LED_ALT D7
+U 1 1 5D28CBE3
+P 3936 4552
+F 0 "D7" H 3929 4297 50  0000 C CNN
+F 1 "LED_ALT" H 3929 4388 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 3936 4552 50  0001 C CNN
+F 3 "~" H 3936 4552 50  0001 C CNN
+	1    3936 4552
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5D28CBE9
+P 4314 4552
+F 0 "R7" V 4212 4564 50  0000 C CNN
+F 1 "1k" V 4312 4564 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4244 4552 50  0001 C CNN
+F 3 "~" H 4314 4552 50  0001 C CNN
+	1    4314 4552
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5D28CBEF
+P 4664 4552
+F 0 "#PWR011" H 4664 4302 50  0001 C CNN
+F 1 "GND" V 4669 4424 50  0001 R CNN
+F 2 "" H 4664 4552 50  0001 C CNN
+F 3 "" H 4664 4552 50  0001 C CNN
+	1    4664 4552
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4086 4552 4164 4552
+Wire Wire Line
+	4464 4552 4664 4552
+Wire Wire Line
+	3786 4552 3678 4552
+$Comp
+L Device:C C3
+U 1 1 5D30B478
+P 5554 1798
+F 0 "C3" H 5502 1884 50  0000 L CNN
+F 1 "1µf" H 5502 1792 35  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5592 1648 50  0001 C CNN
+F 3 "~" H 5554 1798 50  0001 C CNN
+	1    5554 1798
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5554 1648 5966 1648
+Wire Wire Line
+	5966 1648 5966 1484
+$Comp
+L Device:C C4
+U 1 1 5D31A624
+P 6166 1800
+F 0 "C4" H 6112 1886 50  0000 L CNN
+F 1 "1µf" H 6106 1806 35  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6204 1650 50  0001 C CNN
+F 3 "~" H 6166 1800 50  0001 C CNN
+	1    6166 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6166 1650 6166 1484
+Wire Wire Line
+	6166 1950 6166 1984
+Wire Wire Line
+	6166 1984 6366 1984
+Wire Wire Line
+	6366 1984 6366 1484
+Wire Wire Line
+	5554 2028 5554 1948
+$Comp
+L power:GND #PWR013
+U 1 1 5D3F6FA2
+P 6814 1976
+F 0 "#PWR013" H 6814 1726 50  0001 C CNN
+F 1 "GND" H 6819 1803 50  0001 C CNN
+F 2 "" H 6814 1976 50  0001 C CNN
+F 3 "" H 6814 1976 50  0001 C CNN
+	1    6814 1976
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5554 2028 5428 2028
+Connection ~ 5554 2028
+Text Label 5428 2028 1    50   ~ 0
+TVDD
+Wire Wire Line
+	6916 1484 6916 1566
+Text Label 7316 1532 3    50   ~ 0
+TVDD
+Wire Wire Line
+	7316 1484 7316 1532
+Text Notes 3936 886  0    50   ~ 10
+TVDD_3.3V \n
+Wire Wire Line
+	6290 3338 6596 3338
+Text Label 8942 1052 1    50   ~ 0
+TVDD
+Wire Wire Line
+	9138 3468 9062 3468
+Wire Wire Line
+	9138 3418 9062 3418
+Text GLabel 3630 2890 0    50   Input ~ 0
+RB1
+Text GLabel 3636 3202 0    50   Input ~ 0
+RB2
+Text GLabel 3644 3498 0    50   Input ~ 0
+RB3
+Text GLabel 3650 3866 0    50   Input ~ 0
+RB4
+Text GLabel 3618 2554 0    50   Input ~ 0
+RB0
+Text GLabel 3660 4174 0    50   Input ~ 0
+RB5
+Text GLabel 3672 4934 0    50   Input ~ 0
+RB7
+Text GLabel 3678 4552 0    50   Input ~ 0
+RB6
+$Comp
+L Device:C C5
+U 1 1 5D1E3AB3
+P 6716 1806
+F 0 "C5" H 6662 1892 50  0000 L CNN
+F 1 "100nf" H 6656 1812 35  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6754 1656 50  0001 C CNN
+F 3 "~" H 6716 1806 50  0001 C CNN
+	1    6716 1806
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6716 1956 6716 2028
+Wire Wire Line
+	6716 1484 6716 1608
+Wire Wire Line
+	6814 1608 6716 1608
+Connection ~ 6716 1608
+Wire Wire Line
+	6716 1608 6716 1656
+Text GLabel 6916 1566 3    24   BiDi ~ 0
+RC4
+Text GLabel 7116 1946 3    24   BiDi ~ 0
+RC3
+Wire Wire Line
+	7116 1484 7116 1566
+$Comp
+L Device:R R9
+U 1 1 5D1F7888
+P 7116 1716
+F 0 "R9" H 7186 1762 50  0000 L CNN
+F 1 "0" H 7186 1671 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 7046 1716 50  0001 C CNN
+F 3 "~" H 7116 1716 50  0001 C CNN
+	1    7116 1716
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7116 1866 7116 1946
+Wire Wire Line
+	5554 2028 6516 2028
+Wire Wire Line
+	6814 1608 6814 1976
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5D3044C8
+P 9114 1102
+F 0 "#FLG0101" H 9114 1177 50  0001 C CNN
+F 1 "PWR_FLAG" H 9348 1174 50  0000 C CNN
+F 2 "" H 9114 1102 50  0001 C CNN
+F 3 "~" H 9114 1102 50  0001 C CNN
+	1    9114 1102
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:LCD-ALPHA1602 M1
+U 1 1 5D1BB560
+P 6666 1184
+F 0 "M1" H 6691 1549 50  0000 C CNN
+F 1 "LCD-ALPHA1602" H 6691 1458 50  0000 C CNN
+F 2 "pastille_carte:LCD-1602-NEW" H 6666 1184 50  0001 C CNN
+F 3 "" H 6666 1184 50  0001 C CNN
+	1    6666 1184
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6516 1484 6516 2028
+Connection ~ 6516 2028
+Wire Wire Line
+	6516 2028 6716 2028
+Wire Wire Line
+	9528 3368 9528 3454
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5D2BD0E1
+P 8358 1216
+F 0 "J1" H 8322 1016 50  0000 L CNN
+F 1 "Conn_01x02" H 8438 1117 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 8358 1216 50  0001 C CNN
+F 3 "~" H 8358 1216 50  0001 C CNN
+	1    8358 1216
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8898 1116 8942 1116
+Wire Wire Line
+	8942 1116 8942 1052
+Wire Wire Line
+	8942 1116 9114 1116
+Wire Wire Line
+	9114 1116 9114 1102
+Connection ~ 8942 1116
+Wire Wire Line
+	8604 1216 8558 1216
+Wire Wire Line
+	8604 1216 8604 1254
+$Comp
+L power:GND #PWR0101
+U 1 1 5D5B294A
+P 8604 1254
+F 0 "#PWR0101" H 8604 1004 50  0001 C CNN
+F 1 "GND" H 8609 1081 50  0001 C CNN
+F 2 "" H 8604 1254 50  0001 C CNN
+F 3 "" H 8604 1254 50  0001 C CNN
+	1    8604 1254
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5D305340
+P 9116 1252
+F 0 "#FLG0102" H 9116 1327 50  0001 C CNN
+F 1 "PWR_FLAG" H 8890 1330 50  0000 C CNN
+F 2 "" H 9116 1252 50  0001 C CNN
+F 3 "~" H 9116 1252 50  0001 C CNN
+	1    9116 1252
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8558 1116 8598 1116
+Wire Wire Line
+	8604 1216 9116 1216
+Wire Wire Line
+	9116 1216 9116 1252
+Connection ~ 8604 1216
+$Comp
+L Device:R R5
+U 1 1 5D27534F
+P 4286 3866
+F 0 "R5" V 4200 3872 50  0000 C CNN
+F 1 "10k" V 4282 3866 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4216 3866 50  0001 C CNN
+F 3 "~" H 4286 3866 50  0001 C CNN
+	1    4286 3866
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5D3625EF
+P 8748 1116
+F 0 "R10" V 8820 1114 50  0000 C CNN
+F 1 "100" V 8750 1096 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8678 1116 50  0001 C CNN
+F 3 "~" H 8748 1116 50  0001 C CNN
+	1    8748 1116
+	0    -1   -1   0   
+$EndComp
+Text Label 8372 3212 0    24   ~ 0
+TVDD
+Wire Wire Line
+	8372 3318 8372 3212
+Wire Wire Line
+	8372 3318 8520 3318
+Wire Wire Line
+	8520 3318 8520 3678
+Wire Wire Line
+	7712 3678 8520 3678
+Connection ~ 8520 3318
+Wire Wire Line
+	8520 3318 8762 3318
+$EndSCHEMATC
