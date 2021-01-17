@@ -1,3 +1,3 @@
 # Conception-Carte
-Branch -- Stage 1A
-Branch -- Projet Contrôle d'une voiture 
+Branch Daughter-Board -- Stage 1A
+Branch Controle_suivant_champ_magnetique  -- Projet Contrôle d'une voiture 
